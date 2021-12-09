@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Noul festival cultural vine la Cluj-Napoca în perioada 12-18 septembrie 2022. Vino să te bucuri de 7 pline de surprize și să descoperi noi zone ale artei de care nici nu știai că există!">
+    <meta name="author" content="Blind Date with Culture">
+    <meta name="keywords" content="festival, event, culture, art, books, concert, music, theatre, dance">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BLIND DATE WITH CULTURE</title>
+
+    
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            font-family: Garamond;
+        }
+
+        body
+        {
+            background-color: #E0C9A6;
+        }
+    
+        h2 {
+            color: black;
+            background-color: rgb(224, 130, 68);
+            font-family: Brush Script MT;
+            font-size: 50px;
+        }
+
+        .carousel h2
+        {
+            color: rgb(224, 130, 68);
+            background: none;
+            font-family: Brush Script MT;
+            font-size: 50px;
+        }
+
+        @media (max-width: 650px) {
+            .carousel h2 {
+                font-size: 30px;
+            }
+        }
+
+        h3
+        {
+            font-weight: bold;
+        }
+
+        h4
+        {
+            color: blanchedalmond;
+        }
+    
+        h5 {
+            color: black;
+            background-color: rgb(224, 130, 68);
+            font-weight: bold;
+        }
+
+        @media (max-width: 650px) {
+            .carousel h5, .carousel p {
+                font-size: 15px;
+            }
+        }
+    
+        p {
+            font-size: large;
+        }
+
+        nav
+        {
+            background-color: #E0C9A6;
+        }
+
+        .carousel p
+        {
+            color: rgb(224, 130, 68);
+        }
+
+        .boxx {
+            background-color: rgba(224, 131, 68, 0.651);
+            font-size: large;
+            border-style: double;
+        }
+
+        .meniu li
+        {
+            font-weight: bold;
+            font-size: large;
+            color: black;
+        }
+
+        .aboutus h2
+        {
+            color: rgb(224, 130, 68);
+            background: none;
+            font-family: Brush Script MT;
+            font-size: 50px;
+        }
+
+        .aboutus p
+        {
+            background-color: blanchedalmond;
+            border-style: double;
+        }
+
+        .card-title, .card h6
+        {
+            color:rgb(224, 130, 68);
+        }
+
+        .card-text, .card li
+        {
+            color: blanchedalmond;
+        }
+
+        .card ul
+        {
+            font-weight: bold;
+            text-decoration: none;
+            list-style: none;
+            text-align: left;
+        }
+
+        .card a
+        {
+            text-decoration: none;
+            color: rgb(224, 130, 68);
+        }
+
+        .card a:hover
+        {
+            font-weight: bold;
+        }
+
+        .cldr
+        {
+            background-color: rgb(224, 130, 68);
+        }
+
+        .tckts 
+        {
+            background-image: url("selectie/tickets.png");
+            background-size: cover;
+            height: 400px;
+            background-position: center;
+        }
+
+        .tckts h3{
+            color: blanchedalmond;
+            font-weight: bold;
+        }
+
+        footer h2
+        {
+            color: rgb(224, 130, 68);
+            background: none;
+        }
+
+        footer p, footer li
+        {
+            color: blanchedalmond;
+        }
+
+        footer ul
+        {
+            list-style: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="p-2" id="home">
+
+    <!--TITLU-->
+    <div class="container-fluid text-center clearfix d-flex">
+        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill">7 days of</span>
+        <h1 class="float-start flex-fill display-6">BLIND DATE with CULTURE</h1>
+        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill">in Cluj-Napoca</span>
+    </div>
+
+    <!--MENIU-->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler w-100" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav meniu">
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#home">home</a>
+                    </li>
+                    <li class="border-end border-dark"></li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#events">events</a>
+                    </li>
+                    <li class="border-end border-dark"></li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#calendar">calendar</a>
+                    </li>
+                    <li class="border-end border-dark"></li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#tickets">tickets</a>
+                    </li>
+                    <li class="border-end border-dark"></li>
+                    <li class="nav-item px-5">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--CARUSEL-->
+    <header id="carusel" class="carousel slide" data-bs-ride="carousel">
+
+        <!--indicatorii de jos-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" class="active"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" class="active"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" class="active"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" class="active"></button>
+            <button type="button" data-bs-target="#carusel" data-bs-slide-to="5" class="active"></button>
+        </div>
+
+        <!--imaginile caruselului-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="selectie/hero1.png" alt="shelves filled with records" class="d-block w-100">
+                <div class="carousel-caption" style="background-color: black">
+                    <h2>Blind Date with Culture</h2>
+                    <h5>LETTING ART BRING US TOGETHER</h5>
+                    <p>12-18 September | Cluj-Napoca</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="selectie2/carusel1.jpg" alt="yellow lights and people holding their hands up at concert"
+                    class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Deaf Lions Concert, 2018</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="selectie2/carusel2.jpg" alt="three people on stage in colorful costumes and one is jumping"
+                    class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>The Russia Revival Theatre Group Performance, 2018</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="selectie2/carusel3.jpg" alt="someone is making a heart sign with their hands at a concert"
+                    class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Undercover Fairy and the Crazy Hats Concert, 2019</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="selectie2/carusel4.jpg" alt="blurry sillhouetes of people dancing on stage"
+                    class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>The Spinning Lonely Students Performance, 2019</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="selectie2/carusel5.jpeg" alt="man singing and playing the guitar on stage"
+                    class="d-block w-100">
+                <div class="carousel-caption">
+                    <h3>Poor Kid Ross Concert, 2019</h3>
+                </div>
+            </div>
+        </div>
+
+        <!--sageti-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+
+    <!--ABOUT US-->
+    <div class="row aboutus" id="about-us">
+        <div class="col-lg-6 pt-lg-5 mt-lg-5 pt-md-1 px-4 text-center">
+            <div class="pt-5">
+                <h2>Let's get to know each other!</h2>
+                <blockquote class="blockquote"><b>"Information is not knowledge. The only source of knowledge is experience. You need
+                    experience to gain wisdom."</b></blockquote>
+                <h6><b>-Albert Einstein</b></h6>
+            </div>
+        </div>
+        <div class="col-lg-6 p-5 text-center">
+            <p class="m-lg-3 p-5">We live in a world where everyday we have to fight being categorized and judged
+                for listening a specific type of music or liking a certain genre of movies. And why is that exactly?
+                Maybe it has to do with the fact that we can't really understand that people can appreciate something
+                that we don't or the other way around. That's where our story begins! The idea behind BLIND DATE WITH
+                CULTURE is to create an environment where everyone can experience a part of art they have never
+                before, in order to connect with and understand each other.</p>
+        </div>
+    </div>
+
+    <!--EVENTS-->
+    <div class="text-center">
+        <h2 id="events">Blind Date with...</h2>
+        <div class="row justify-content-center">
+            <span class="col-md-4">
+                <div class="card bg-black mt-3 rounded-0">
+                    <h3 class="card-title p-2">a book</h3>
+                    <img class="p-2" src="selectie/book.png">
+                    <p class="card-text p-4 pb-0">If you like reading but don't know what to read next or if you would like to start
+                        reading but don't know what to start with, come to BLIND DATE WITH A BOOK. The event will take place in
+                        a few bookstores in Cluj-Napoca, where you can go and buy as many books as you want, but here's the
+                        catch: the only information about the book is a quote taken out of it. Here is where you can find us:
+                    </p>
+                    <ul>
+                        <li>Bookstory</li>
+                        <li>Librarium Book Corner</li>
+                        <li>Librarium</li>
+                        <li>Gaudeamus</li>
+                        <li>Librăria Universității</li>
+                    </ul>
+                    <h6>Open from 4PM until 10PM on all festival days</h6>
+                </div>
+            </span>
+
+            <span class="col-md-4">
+                <div class="card bg-black mt-3 rounded-0">
+                    <h3 class="card-title p-2">music</h3>
+                    <img class="p-2" src="selectie/music-edited.png">
+                    <p class="card-text p-4 pb-0">Let's be honest, who doesn't like music? There's always room for more and we'll
+                        never get enough of it. BLIND DATE WITH MUSIC is the perfect event for those who enjoy discovering new music
+                        or even just enjoy listening to it. Come to any of this places and find your new favorite vinyls and CDs:
+                    </p>
+                    <ul>
+                        <li>Dusty Sound Records</li>
+                        <li>Melo Melanj Record Shop</li>
+                        <li>Librarium Book Corner</li>
+                    </ul>
+                    <h6>Open from 4PM until 10PM on all festival days</h6>
+                </div>
+            </span>
+        </div>
+        <div class="row justify-content-center">
+            <span class="col-md-4">
+                <div class="card bg-black mt-3 rounded-0">
+                    <h3 class="card-title p-2">a movie</h3>
+                    <img class="p-2" src="selectie/a movie-edited.png">
+                    <p class="card-text p-4 pb-0">Spending an hour to pick what movie to watch can really kill the mood, so let us
+                        do it for you. If you are looking for another kind of movie night, come to BLIND DATE WITH A MOVIE. All you
+                        have to do is choose where and when you want to come and let yourself be surprised. Here's the list of
+                        cinemas where the event will take place:</p>
+                    <ul>
+                        <li>Cinema Florin Piersic</li>
+                        <li>Cinema Dacia</li>
+                        <li>Cinema Victoria</li>
+                        <li>Cinema ARTA</li>
+                        <li>Cinema Mărăști</li>
+                    </ul>
+                    <h6>See the <a href="#calendar">CALENDAR</a> for available dates</h6>
+                </div>
+            </span>
+
+            <span class="col-md-4">
+                <div class="card bg-black mt-3 rounded-0">
+                <h3 class="card-title p-2">a concert</h3>
+                <img class="p-2" src="selectie/a concert-edited.png">
+                <p class="card-text p-4 pb-0">Concerts are fun just as they are, but imagine going to a concert and not knowing who is performing: now that's something else! They're all about the experience and the atmosphere, and we'll give you one you'll never forget. Here's where BLIND DATE WITH A CONCERT will take place:</p>
+                <ul>
+                    <li>Muzeul de Artă</li>
+                    <li>Parcul Cetățuie</li>
+                    <li>Rectorat UBB</li>
+                </ul>
+                <h6>See the <a href="#calendar" >CALENDAR</a> for available dates</h6>
+                </div>
+            </span>
+
+            <span class="col-md-4">
+                <div class="card bg-black mt-3 rounded-0">
+                <h3 class="card-title p-2">the performing arts</h3>
+                <img class="p-2" src="selectie/tpa-edited.png">
+                <p class="card-text p-4 pb-0">We also have a more elegant experience for you. If theatre, ballet and classical music are some things you're interested in, we invite you to BLIND DATE WITH THE PERFORMING ARTS. Dress code: fancy. Here is where it will take place.</p>
+                <ul>
+                    <li>Teatrul Național Lucian Blaga</li>
+                    <li>Opera Maghiară</li>
+                </ul>
+                <h6>See the <a href="#calendar" >CALENDAR</a> for available dates</h6>
+                </div>
+            </span>
+        </div>
+    </div>
+
+    <hr class="w-50 bg-black my-5 mx-auto">
+
+    <!--CALENDAR-->
+    <div class="text-center calendar">
+        <h2 class="mt-3" id="calendar">Calendar</h2>
+        <div class="row">
+            <span class="col-md-4">
+                <div class="card mt-3 bg-black rounded-0">
+                    <h3 class="card-title p-2">Popcorn & Chill</h3>
+                    <div class="cldr m-2">
+                        <p class="card-text">Monday - Thursday</p>
+                        <p class="card-text">3 movies / day</p>
+                        <p class="card-text">Friday - Sunday</p>
+                        <p class="card-text">4 movies / day</p>
+                    </div>
+                </div>
+            </span>
+
+            <span class="col-md-4">
+                <div class="card mt-3 bg-black rounded-0">
+                    <h3 class="card-title p-2">Electric Love</h3>
+                    <div class="cldr m-2">
+                        <p class="card-text">Friday - Sunday</p>
+                        <p class="card-text">3 concerts / day</p>
+                    </div>
+                </div>
+            </span>
+
+            <span class="col-md-4">
+                <div class="card mt-3 bg-black rounded-0">
+                    <h3 class="card-title p-2">In Your Spotlight</h3>
+                    <div class="cldr m-2">
+                        <p class="card-text">Monday - Thursday</p>
+                        <p class="card-text">1 performance / day</p>
+                        <p class="card-text">Friday - Sunday</p>
+                        <p class="card-text">2 performances / day</p>
+                    </div>
+                </div>
+            </span>
+        </div>
+
+        <span class="badge bg-black py-3 px-5 mt-3"><h4>Full calendar coming soon</h4></span>
+    </div>
+
+    <!--TICKETS-->
+    <div class="text-center tckts mt-5" id="tickets">
+        <h3 class="display-3 p-5">TICKETS COMING SOON</h3>
+    </div>
+
+    <!--CONTACT-->
+    <footer class="row bg-black" id="contact">
+        <span class="col-md-6 text-center p-4">
+            <h2 class="mt-md-5 pt-lg-5">Contact</h2>
+            <ul class="text-start">
+                <li>Contact our team: contact@bdwithculture.com</li>
+                <li>---</li>
+                <li>Press: press@bdwithculture.com</li>
+                <li>---</li>
+                <li>If you would like to propose a movie, an artist or a play, let us know: propositions@bdwithculture.com</li>
+            </ul>
+        </span>
+
+        <span class="col-md-6">
+            <img class="p-5 w-75 ms-5" src="selectie/contact.jpg">
+        </span>
+        <p class="text-center">Copyright &copy; 2021 Blind Date with Culture</p>
+    </footer>
+</body>
+
+</html>
