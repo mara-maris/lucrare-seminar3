@@ -51,6 +51,12 @@
             }
         }
 
+        @media (max-width: 450px) {
+            .carousel h2{
+                font-size: 20px;
+            }
+        }
+
         h3
         {
             font-weight: bold;
@@ -71,6 +77,24 @@
             .carousel h5, .carousel p {
                 font-size: 15px;
             }
+        }
+
+        @media (max-width: 450px) {
+            .carousel h5, .carousel p {
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 450px) {
+            .carousel h3 {
+                font-size: 15px;
+            }
+        }
+        
+        @media (max-width: 380px) {
+            .carousel-caption{
+                padding: 0;
+            }            
         }
     
         p {
@@ -156,7 +180,7 @@
             background-position: center;
         }
 
-        .tckts h3{
+        .tckts h3, .tckts p{
             color: blanchedalmond;
             font-weight: bold;
         }
@@ -167,14 +191,9 @@
             background: none;
         }
 
-        footer p, footer li
+        footer p
         {
             color: blanchedalmond;
-        }
-
-        footer ul
-        {
-            list-style: none;
             font-weight: bold;
         }
     </style>
@@ -184,19 +203,19 @@
 
     <!--TITLU-->
     <div class="container-fluid text-center clearfix d-flex">
-        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill">7 days of</span>
+        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill d-none d-sm-none d-md-block">7 days of</span>
         <h1 class="float-start flex-fill display-6">BLIND DATE with CULTURE</h1>
-        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill">in Cluj-Napoca</span>
+        <span class="boxx badge rounded-0 text-dark float-start px-2 py-3 flex-fill d-none d-sm-none d-md-block">in Cluj-Napoca</span>
     </div>
 
     <!--MENIU-->
-    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler w-100" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                 <ul class="navbar-nav meniu">
                     <li class="nav-item px-5">
                         <a class="nav-link" href="#home">home</a>
@@ -293,16 +312,16 @@
 
     <!--ABOUT US-->
     <div class="row aboutus" id="about-us">
-        <div class="col-lg-6 pt-lg-5 mt-lg-5 pt-md-1 px-4 text-center">
-            <div class="pt-5">
+        <div class="col-lg-6 text-center p-5">
+            <div>
                 <h2>Let's get to know each other!</h2>
                 <blockquote class="blockquote"><b>"Information is not knowledge. The only source of knowledge is experience. You need
                     experience to gain wisdom."</b></blockquote>
                 <h6><b>-Albert Einstein</b></h6>
             </div>
         </div>
-        <div class="col-lg-6 p-5 text-center">
-            <p class="m-lg-3 p-5">We live in a world where everyday we have to fight being categorized and judged
+        <div class="col-lg-6 text-center py-lg-3 px-md-4">
+            <p class="p-5">We live in a world where everyday we have to fight being categorized and judged
                 for listening a specific type of music or liking a certain genre of movies. And why is that exactly?
                 Maybe it has to do with the fact that we can't really understand that people can appreciate something
                 that we don't or the other way around. That's where our story begins! The idea behind BLIND DATE WITH
@@ -448,23 +467,24 @@
     <!--TICKETS-->
     <div class="text-center tckts mt-5" id="tickets">
         <h3 class="display-3 p-5">TICKETS COMING SOON</h3>
+        <p>Due to COVID-19 issues, we are still working on things, so hold on tight and prepare to be blown away!</p>
     </div>
 
     <!--CONTACT-->
     <footer class="row bg-black" id="contact">
         <span class="col-md-6 text-center p-4">
-            <h2 class="mt-md-5 pt-lg-5">Contact</h2>
-            <ul class="text-start">
-                <li>Contact our team: contact@bdwithculture.com</li>
-                <li>---</li>
-                <li>Press: press@bdwithculture.com</li>
-                <li>---</li>
-                <li>If you would like to propose a movie, an artist or a play, let us know: propositions@bdwithculture.com</li>
-            </ul>
+            <h2 class="mt-md-3 pt-lg-5">Contact</h2>
+            <div class="text-start ps-4">
+                <p>Contact our team: contact@bdwithculture.com</p>
+                <p>---</p>
+                <p>Press: press@bdwithculture.com</p>
+                <p>---</p>
+                <p>If you would like to propose a movie, an artist or a play, let us know: propositions@bdwithculture.com</p>
+            </div>
         </span>
 
         <span class="col-md-6">
-            <img class="p-5 w-75 ms-5" src="selectie/contact.jpg">
+            <img class="p-5 w-100" src="selectie/contact.jpg">
         </span>
         <p class="text-center">Copyright &copy; 2021 Blind Date with Culture</p>
     </footer>
